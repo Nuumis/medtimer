@@ -1,0 +1,39 @@
+.SoundOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.SoundOptions h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.sound-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.sound-icons span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 0 1rem;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.sound-icons span:hover {
+  border-color: #333;
+  background-color: #eee;
+}
+
+.sound-icons span.active {
+  border-color: #333;
+  background-color: #ddd;
+}

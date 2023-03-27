@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+Features:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A timer to set the duration of the meditation session
+Options to choose different types of sounds for meditation
+An option to set reminders for daily meditation
+Customizable settings for meditation sounds, duration, and reminders
+Ability to pause, resume, or restart the meditation timer
+Design:
 
-## Available Scripts
+The app will have a minimalist design with soothing colors and typography.
+The timer will be the main focus of the app with the option to customize settings below it.
+The sound options will be displayed as icons that the user can click to select.
+The reminder option will be a separate section on the app with the option to add, edit, or delete reminders.
+Project Structure:
 
-In the project directory, you can run:
+Use create-react-app to set up the project structure.
+Install any necessary dependencies such as react-icons, react-bootstrap, and react-notifications-component.
+Components:
 
-### `npm start`
+App: This will be the main component that will render the timer, sound options, and reminders.
+Timer: This component will handle the countdown of the meditation timer and will have options to pause, resume, or restart the timer.
+SoundOptions: This component will display the different types of sounds available for meditation and allow the user to select the desired sound.
+ReminderOptions: This component will display the reminders and allow the user to add, edit, or delete reminders.
+Settings: This component will allow the user to customize the meditation sound, duration, and reminder settings.
+Functionality:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The user can select the desired sound for meditation by clicking on the sound options.
+The user can set the duration of the meditation session using the timer component.
+The user can set reminders for daily meditation using the ReminderOptions component.
+The user can customize the meditation sound, duration, and reminder settings using the Settings component.
+Testing and Deployment:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Use Jest and Enzyme for testing the app.
+Deploy the app on Heroku or Netlify.

@@ -1,0 +1,36 @@
+.Settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.Settings h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.Settings label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.Settings input {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Settings select {
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  cursor: pointer;
+}

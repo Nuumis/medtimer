@@ -1,0 +1,42 @@
+.ReminderOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.ReminderOptions h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.reminder-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.reminder-list span {
+  font-size: 1rem;
+  text-align: left;
+  width: 100%;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.reminder-list span:last-child {
+  border-bottom: none;
+}
+
+.ReminderOptions button {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
